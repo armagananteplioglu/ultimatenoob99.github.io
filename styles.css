@@ -1,0 +1,61 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPKdir2QAcR3rep7vS-d3v2eF3TD_OwP-RcK9ECvo16d7x-hzD9u2NJcAoe3ivlfA3Qso&usqp=CAU")
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    padding: 1em;
+    align-items: center;
+    align-self: center;
+    justify-content: center;
+    border: 1px solid black;
+    background: beige;
+}
+
+.buttonContainer {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(4, 1fr);
+}
+
+.displayContainer {
+    width: 99%;
+    height: 6.5rem;
+    border: 1px solid black;
+    text-align: right;
+    font-size: 3rem;
+    background: white;
+}
+
+.minordisplay {
+    margin: 0.3em;
+    width: 95%;
+    height: 1.5em;
+    font-size: 1.5rem;
+    line-height: 1.5em;
+    text-indent: 0.5em;
+    text-align: right;
+    color: grey;
+}
+
+.display {
+    margin-bottom: 0.5em;
+}
+
+.button {
+    font-size: 3.5rem;
+}
+
+.number {
+    font-size: 3.5rem;
+}
+
+.operator {
+    font-size: 3.5rem;
+}
